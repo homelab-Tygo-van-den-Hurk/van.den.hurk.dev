@@ -1,134 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>For Rent!</title>
+
+        <meta charset="UTF-8">
+        <meta name="darkreader-lock">
+        <meta name="author" content="Tygo van den Hurk">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
         <meta name="description" content="This is is the hurk.dev domain. It's for rent if you need it!">
         <meta name="keywords" content="Hurk, van den Hurk, subdomain, domain">
-        <meta name="author" content="Tygo van den Hurk">
-        <!-- <link rel="stylesheet" href="./style.css"> -->
+
+        <link rel="icon" href="/icon.svg">
+        <link rel="apple-touch-icon" href="/icon.svg">
+        <link rel="stylesheet" href="/base-style.css"> 
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap">
+
         <link rel="canonical" href="https://van.den.hurk.dev/" />
+
         <style>
-            * {
-                margin: 0;
-                padding: 0;
-                text-align: center;
-            }
-            body {
-                background-color: white;
-                height: 100vh;
-                width: 100vw;
-                margin-left: auto;
-                margin-right: auto;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                flex-direction: column;
-            }
-            @media (prefers-color-scheme: dark) {
-                body {
-                    background-color: #181A1B;
-                }
-            }
-
-            pre {
-                display: inline-block;
-            }
-
-            div#container {
-                margin: auto;
-                width: 80%;
-                max-width: 35em;
-            }
-            div#container > * {
-                margin: auto;
-            }
-
-            div#box {
-                max-width: 15em;
-            }
-
-            img {
-                width: 100%;
-                height: 100%;
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-            }
-
-            h1 {
-                color: black;
-                max-width: 80%;
-                text-align: center;
-            }
-            @media (prefers-color-scheme: dark) {
-                h1 {
-                    color: white;
-                }
-            }
-            h2 {
-                color: black;
-                max-width: 80%;
-                text-align: center;
-            }
-            @media (prefers-color-scheme: dark) {
-                h2 {
-                    color: white;
-                }
-            }
-            h3 {
-                color: black;
-                max-width: 80%;
-                text-align: center;
-            }
-            @media (prefers-color-scheme: dark) {
-                h3 {
-                    color: white;
-                }
-            }
-            a {
-                text-decoration: none;
-                color: #0077b6;
-                display: inline-block;
-            }
-            p {
-                color: black;
-                max-width: 80%;
-                text-align: center;
-                display: inline-block;
-            }
-            @media (prefers-color-scheme: dark) {
-                p {
-                    color: white;
-                }
-            }
-            b {
+            code {  
                 display: inline;
+                font-family: 'Courier New', Courier, monospace;
+                background-color: var(--layer-0-background-color);
+                border-radius: var(--border-radius);
+                text-decoration: none;
+                padding: 0.25em;
+                /* 
+                    width: fit-content;
+                    height: fit-content; 
+                    display: inline-block; 
+                    margin-top: 0; 
+                    padding: 0;
+                    overflow: hidden;
+                */
+            } 
+            p {
+                margin-top: 1em;
+                hyphens: manual;
             }
+            main { width: 100vw; max-width: none; height: 100vh;}
         </style>
+        <!-- <style>*{margin:0;padding:0;text-align:center;}body{background-color:white;height:100vh;width:100vw;margin-left:auto;margin-right:auto;display:flex;justify-content:center;align-items:center;flex-direction:column;}@media(prefers-color-scheme:dark){body{background-color:#181A1B;}}pre{display:inline-block;}div#container{margin:auto;width:80%;max-width:35em;}div#container>*{margin:auto;}div#box{max-width:15em;}img{width:100%;height:100%;background-repeat:no-repeat;background-size:cover;background-position:center;}h1{color:black;max-width:80%;text-align:center;}@media(prefers-color-scheme:dark){h1{color:white;}}h2{color:black;max-width:80%;text-align:center;}@media(prefers-color-scheme:dark){h2{color:white;}}h3{color:black;max-width:80%;text-align:center;}@media(prefers-color-scheme:dark){h3{color:white;}}a{text-decoration:none;color:#0077b6;display:inline-block;}p{color:black;max-width:80%;text-align:center;display:inline-block;}@media(prefers-color-scheme:dark){p{color:white;}}b{display:inline;}</style> -->
     </head>
     <body>
-        <div id="container">
-            <h1>For rent!</h1>
-            <p>
-                <b>van den Hurk</b> is a common Dutch last name. It happens to be my last name. 
-                That's why I bought <code>hurk.dev</code>, so that I can have 
-                <a href="https://tygo.van.den.hurk.dev"><code>tygo.van.den.hurk.dev</code></a><br>
-                <br>
-                if your last name is <b>van den Hurk</b> and you want to have a subdomain, 
-                subdomains <code>*.van.den.hurk.dev</code>, they can be rented!<br>
-                <br>
-                the only reason I'm asking for money is because I have to pay for the domain 
-                myself. By renting a subdomain you will be reducing the costs I pay yearly for
-                renting this domain myself. As domains can be owned for a yearly fee. That's it.
-                I'm not doing this to make a profit.<br>
-                <br>
-                The more of us renting it, the <b>lower</b> the price gets.<br>
-                <br>
-                if you are interested, feel free to 
-                <a href="https://tygo.van.den.hurk.dev/contact-me">contact me</a>!
-            </p>
-        </div>
+        <main class="horizontally-centered vertically-centered">
+            <section id="container">
+                <h1>Let's share!</h1>
+                <p>
+                    <b>van den Hurk</b> is a common Dutch last name. It happens to be my last name. 
+                    That's why I bought <code>hurk.dev</code>, so that I could have 
+                    <a href="https://tygo.van.den.hurk.dev"><code style="color: var(--accent-color);">tygo.van.den.hurk.dev</code></a> 
+                    if your last name is <b>van den Hurk</b> and you want to have a subdomain, 
+                    they can be rented! The price is shared among all of us. The more there are,
+                    the cheaper this gets.
+                </p>
+                <p>
+                    the only reason I'm asking for money is because I have to pay for the domain 
+                    myself. By renting a subdomain you will be reducing the costs I pay yearly for
+                    renting this domain myself. As domains can be owned for a yearly fee. That's it.
+                    I'm not doing this to make a profit. The more of us renting it, the <b>lower</b> the price gets. if you are interested, feel free to 
+                    <a href="https://redirects.tygo.van.den.hurk.dev/contact">contact me</a>!
+                </p>
+            </section>
+        </main>
     </body>
 </html>
