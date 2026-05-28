@@ -1,0 +1,26 @@
+{
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "cSpell.words": [
+        "Behance",
+        "cachix",
+        "convco",
+        "darkreader",
+        "dont",
+        "edolstra",
+        "gitlint",
+        "homelab",
+        "Hurk",
+        "Leed",
+        "lycheeverse",
+        "mdformat",
+        "nixos",
+        "nixpkgs",
+        "numtide",
+        "passthru",
+        "pkgs",
+        "pname",
+        "treefmt",
+        "Tygo"
+    ],
+}

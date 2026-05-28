@@ -1,0 +1,8 @@
+"$schema" = "./node_modules/wrangler/config-schema.json"
+
+name = "van-den-hurk-dev"
+compatibility_date = "2026-05-18"
+send_metrics=false
+
+[assets]
+directory = "./dist"

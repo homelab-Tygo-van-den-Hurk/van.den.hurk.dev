@@ -1,0 +1,49 @@
+{
+  "name": "@homelab-tygo-van-den-hurk/van.den.hurk",
+  "license": "MIT",
+  "description": "This reposositry holds the source code for `*.van.den.hurk.dev` notifying visitors that subdomains other then `tygo.van.den.hurk.dev` are for rent.",
+  "homepage": "https://van.den.Hurk.dev/",
+  "author": "Tygo van den Hurk",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "funding": [
+    {
+        "type": "github",
+        "url": "https://github.com/sponsors/Tygo-van-den-Hurk"
+    }
+  ],
+  "support": {
+    "backing": {
+      "npm-funding": true
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/homelab-Tygo-van-den-Hurk/van.den.Hurk.dev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/homelab-Tygo-van-den-Hurk/van.den.Hurk.dev/issues"
+  },
+  "maintainers": [
+    "Tygo van den Hurk"
+  ],
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "astro": "astro",
+    "deploy": "npm run build && npx wrangler deploy",
+    "preview": "npm run build && npx wrangler dev"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.2.2",
+    "astro": "^6.1.7",
+    "tailwindcss": "^4.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0"
+  }
+}
